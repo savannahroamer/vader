@@ -1,0 +1,22 @@
+Vädertjänst
+
+En enkel webbsida som visar vädret just nu. Sidan är byggd med jQuery, Ajax, LocalStorage och Geolocation och hämtar väderdata från OpenWeather.
+
+Vad sidan gör
+
+- My location! visar vädret där du befinner dig just nu.
+- Sökfältet visar vädret i den stad du skriver in (tryck Enter).
+- Latest requests sparar dina 5 senaste sökningar, där den senaste visas överst.
+- Varje resultat visar en väderbild, platsens namn, temperaturen i °C och vindhastigheten i m/s.
+
+Så kör du projektet
+
+1. Installera Node.js.
+2. Skapa en fil som heter .env i repots rotmapp (samma mapp som denna Readme, inte i Weather/) och lägg till:
+   VITE_API_KEY=din_api_nyckel och och lägg api nyckel
+3. Gå in i mappen Weather och installera beroenden:
+   cd Weather
+   npm install
+4. Starta projektet (fortfarande i mappen Weather):
+   npm run dev
+5. Öppna http://localhost:5173 i webbläsaren.

@@ -1,0 +1,5 @@
+/* Size of the weather icon */
+.weather-icon {
+  width: 50px;
+  height: 50px;
+}
